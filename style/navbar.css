@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
+  overflow-x: hidden;
+}
+/* Start Navbar */
+header{
+    background-color: #0D008B;
+}
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_logo > img{
+    width: 30px;
+    height: 30px;
+}
+.nav_logo > a{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.nav_right-button{
+    background-color: #097AFC;
+}
+.dropdown-toggle::after {
+    /* display: none; */
+}
+/* End Navbar */
+

@@ -1,0 +1,77 @@
+.count_bg {
+  background-image: url(../images/bg_dot1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+/* background-color: #030059; */
+background-color: rgba(3, 0, 89, 0.863);
+  }
+.home_body {
+  background-image: url(../img/body-home.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding: 180px 0;
+}
+.count_image-border {
+  border: 2px solid #fff;
+  padding: 0px 0px 10px 0px;
+  border-radius: 10px;
+}
+.count_image-border iframe {
+  margin-left: 15px;
+  margin-top: -10px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.count_btn1,
+.count_btn2 {
+  background: linear-gradient(100deg, rgb(48, 203, 150), rgb(0, 109, 254));
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+.count_btn1 {
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+.count_btn2 {
+  padding: 10px 32px;
+}
+
+.count_card {
+  background-color: #0f0043;
+  border: 1px solid #0090ff;
+  border-radius: 5px;
+  padding: 16px;
+}
+.count_card-image {
+  background-color: #006dfe;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+/* .dashboard {
+  background-image: url(../images/Background_da.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: red;
+  padding: 180px 0;
+} */
+@media only screen and (max-width: 576px) {
+  .count-btn {
+    text-align: center;
+  }
+  .count_btn1 {
+    margin-right: 0px;
+  }
+}
+
+
+
