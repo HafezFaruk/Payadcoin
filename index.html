@@ -6,44 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payadcoin</title>
 
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- bootstrap cdm -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
-      crossorigin="anonymous"
-    ></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="/style/navbar.css" />
     <link rel="stylesheet" href="/style/style.css" />
-    <link rel="stylesheet" href="/style/global.css" />
-    <!-- <link rel="stylesheet" href="/style/navbar.css" /> -->
     <link rel="stylesheet" href="/style/banner.css" />
     <link rel="stylesheet" href="/style/count.css" />
     <link rel="stylesheet" href="/style/game.css" />
+    <link rel="stylesheet" href="/style/team.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
   </head>
   <body>
     <!-- Start Navbar -->
     <header>
       <nav class="container">
         <input type="checkbox" id="check" />
-        <label for="check">
+        <label for="check" id="toggle_button">
           <i class="fas fa-bars" id="btn"></i>
           <i class="fas fa-times" id="cancel"></i>
         </label>
-        <div class="nav_logo">
+        <span class="nav_logo">
           <img src="/img/navbar_logo/nav-logo.png" alt="navbar_logo" />
           <a class="navbar-brand text-white text-uppercase" href="#"
             >Payadcoin</a
           >
-        </div>
+        </span>
         <ul>
           <li><a href="#">NEWSLETTER</a></li>
           <li>
@@ -64,128 +63,47 @@
       </nav>
     </header>
 
-    <!-- <header>
-      <nav class="navbar navbar-expand-lg navbar-light container">
-        <div class="container-fluid">
-         
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="ms-auto">
-              <ul class="navbar-nav text-uppercase mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    
-                    <img class="img-fluid" src="/images/Drop_Down.png" alt="" />
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Item-1</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Item-2</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#"> </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled text-white"
-                    >
-                    <img class="img-fluid" src="/images/Minimiza.png" alt="" />
-                  </a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    
-                    <img class="img-fluid" src="/images/Drop_Down.png" alt="" />
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Item-1</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Item-2</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    
-                    <img class="img-fluid" src="/images/Drop_Down.png" alt="" />
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Item-1</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Item-2</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <button
-              class="btn nav_right-button text-white ms-auto"
-              type="submit"
-            >
-              Connect Wallet
-            </button>
-          </div>
-        </div>
-      </nav>
-    </header> -->
     <!-- End Navbar -->
 
     <main>
       <!-- Start Banner -->
       <section class="banner_bg text-white text-center">
         <div>
-          <h2 class="text-uppercase">GET THE ULTIMATE PROFIT</h2>
-          <h2 class="text-uppercase">FROM BITCOIN</h2>
-          <p>Unlock life-changing opportunities with Payadcoun</p>
+          <div
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h2 class="text-uppercase">GET THE ULTIMATE PROFIT</h2>
+            <h2 class="text-uppercase">FROM BITCOIN</h2>
+            <p>Unlock life-changing opportunities with Payadcoun</p>
+          </div>
           <a
             href="https://drive.google.com/file/d/11Ag5AdYC-dBEaN4Eyt9hXx5PGBJBSyaC/view"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button class="banner_btn1">Read White Paper</button>
+            <button
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="banner_btn1 mt-5 me-2"
+            >
+              Read White Paper
+            </button>
           </a>
-          <button class="banner_btn2">Buy Payadcoin</button>
+          <button
+            data-aos="fade-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="banner_btn2 mt-5 ms-2"
+          >
+            Buy Payadcoin
+          </button>
         </div>
-        <div class="mt-5">
+        <a href="#footer" class="mt-5">
           <img src="/img/Property.png" alt="Property" />
-        </div>
+        </a>
       </section>
       <!-- End Banner -->
       <div class="home_body">
@@ -194,7 +112,12 @@
           <div class="container">
             <div class="mx-lg-5">
               <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
-                <div class="col">
+                <div
+                  data-aos="zoom-in-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  class="col"
+                >
                   <div class="count_image-border mt-5">
                     <iframe
                       width="560"
@@ -209,17 +132,22 @@
                 </div>
 
                 <div
+                  data-aos="zoom-in-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
                   class="col mt-5 d-flex justify-content-center align-items-center text-white"
                 >
                   <div>
-                    <h6>BUILDING COMMUNITIES THROUGH P2E</h6>
-                    <h2 class="mt-3">
-                      Making real world impact through virtual contribution
-                    </h2>
-                    <p>
-                      Payadcoin is the largest community of gamers cohesively
-                      building a better future through P2E blockchain gaming.
-                    </p>
+                    <div>
+                      <h6>BUILDING COMMUNITIES THROUGH P2E</h6>
+                      <h2 class="mt-3">
+                        Making real world impact through virtual contribution
+                      </h2>
+                      <p>
+                        Payadcoin is the largest community of gamers cohesively
+                        building a better future through P2E blockchain gaming.
+                      </p>
+                    </div>
                     <div class="count-btn">
                       <a
                         href="https://drive.google.com/file/d/11Ag5AdYC-dBEaN4Eyt9hXx5PGBJBSyaC/view"
@@ -236,15 +164,22 @@
                 </div>
               </div>
 
-              <div class="row">
+              <div class="main_card">
                 <div
-                  class="col col-sm-12 col-lg-4 col-md-4 text-white d-flex justify-content-center align-items-center"
+                  data-aos="flip-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  class="card-1 text-white d-flex justify-content-center align-items-center"
                 >
                   <div class="d-flex count_card mt-5">
                     <div
                       class="count_card-image d-flex justify-content-center align-items-center"
                     >
-                      <img class="img-fluid" src="/images/Icon_gh.png" alt="" />
+                      <img
+                        class="img-fluid"
+                        src="/images/Icon_gh.png"
+                        alt="image"
+                      />
                     </div>
                     <span class="ms-4">
                       <h3>50k+</h3>
@@ -252,14 +187,22 @@
                     </span>
                   </div>
                 </div>
+
                 <div
-                  class="col col-sm-12 col-lg-4 col-md-4 text-white d-flex justify-content-center align-items-center"
+                  data-aos="zoom-in-down"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  class="card-2 text-white d-flex justify-content-center align-items-center"
                 >
                   <div class="d-flex count_card mt-5">
                     <div
                       class="count_card-image d-flex justify-content-center align-items-center"
                     >
-                      <img class="img-fluid" src="/images/Icon_ga.png" alt="" />
+                      <img
+                        class="img-fluid"
+                        src="/images/Icon_ga.png"
+                        alt="image"
+                      />
                     </div>
                     <span class="ms-4">
                       <h3>50k+</h3>
@@ -267,14 +210,22 @@
                     </span>
                   </div>
                 </div>
+
                 <div
-                  class="col col-sm-12 col-lg-4 col-md-4 text-white d-flex justify-content-center align-items-center"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  class="card-3 text-white d-flex justify-content-center align-items-center"
                 >
                   <div class="d-flex count_card mt-5">
                     <div
                       class="count_card-image d-flex justify-content-center align-items-center"
                     >
-                      <img class="img-fluid" src="/images/Icon_f.png" alt="" />
+                      <img
+                        class="img-fluid"
+                        src="/images/Icon_f.png"
+                        alt="image"
+                      />
                     </div>
                     <span class="ms-4">
                       <h3>50k+</h3>
@@ -290,85 +241,139 @@
 
         <!-- Start dashboard -->
         <section class="dashboard mt-5">
-          <div class="container">
-            <img class="img-fluid" src="/images/Rectangle_1042.png" alt="" />
+          <div
+            data-aos="zoom-in-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="container"
+          >
+            <img
+              class="img-fluid"
+              src="/images/Rectangle_1042.png"
+              alt="image"
+            />
           </div>
         </section>
         <!--End dashboard -->
 
         <!--Start Game -->
-        <section>
-          <div class="text-center text-white mt-5">
-            <h2>The metaverse</h2>
-            <p>Our gaming partners</p>
+        <section class="my-5">
+          <div class="text-center text-white">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+              <h2>The metaverse</h2>
+              <p>Our gaming partners</p>
+            </div>
 
             <div>
               <div id="game_label-logo1">
-                <img class="img-fluid" src="/img/game_logo/Label.png" alt="" />
+                <img
+                  class="img-fluid"
+                  src="/img/game_logo/Label.png"
+                  alt="image"
+                />
               </div>
 
               <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       class="img-fluid"
                       src="/img/game_logo/logo1.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       class="img-fluid"
                       src="/img/game_logo/logo2.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       class="img-fluid"
                       src="/img/game_logo/logo3.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       id="game_logo4"
                       class="img-fluid"
                       src="/img/game_logo/logo4.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       class="img-fluid"
                       src="/img/game_logo/logo5.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       class="img-fluid"
                       src="/img/game_logo/logo6.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
-                  <div class="col">
+                  <div
+                    data-aos="zoom-in-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    class="col"
+                  >
                     <img
                       class="img-fluid"
                       src="/img/game_logo/logo7.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
                 </div>
               </div>
               <div id="game_label-logo2">
-                <img class="img-fluid" src="/img/game_logo/Label.png" alt="" />
+                <img
+                  class="img-fluid"
+                  src="/img/game_logo/Label.png"
+                  alt="image"
+                />
               </div>
             </div>
           </div>
@@ -376,16 +381,26 @@
         <!--End Game -->
 
         <!--Start money area -->
-        <section class="container money text-white">
+        <section class="container mt-5 money text-white">
           <div class="row ms-auto">
-            <div class="col">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col"
+            >
               <h4>All you need is $ Flow</h4>
               <h6>Contact:</h6>
               <p>2dfhg6621h6d6dh6df21h6d652162fgdhg</p>
             </div>
-            <div class="col">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col"
+            >
               <div class="d-flex align-items-center">
-                <img src="/images/money_logo.png" alt="" />
+                <img src="/images/money_logo.png" alt="image" />
                 <h3>PancakeSwap</h3>
               </div>
               <a
@@ -408,26 +423,61 @@
               <h6>Meet our great</h6>
               <h3>Team Members</h3>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
-              <div class="col mt-5">
-                <img class="img-fluid" src="/img/team/Team1.png" alt="" />
-                <div class="team_btn1">
-                  <h3>Jonathon Smith</h3>
-                  <h6>Founder & CEO</h6>
+            <div class="team_main">
+              <div
+                data-aos="zoom-in-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                class="team1"
+              >
+                <div>
+                  <img
+                    class="img-fluid"
+                    src="/img/team/Team1.png"
+                    alt="image"
+                  />
+                  <div class="team_btn1">
+                    <h3>Jonathon Smith</h3>
+                    <h6>Founder & CEO</h6>
+                  </div>
                 </div>
               </div>
-              <div class="col team2">
-                <img class="img-fluid" src="/img/team/Team02.png" alt="" />
-                <div class="team_btn2">
-                  <h3>Anzelina Smith</h3>
-                  <h6>Marketing & COO</h6>
+
+              <div
+                data-aos="zoom-in-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                class="team2"
+              >
+                <div>
+                  <img
+                    class="img-fluid"
+                    src="/img/team/Team2.png"
+                    alt="image"
+                  />
+                  <div class="team_btn2">
+                    <h3>Anzelina Smith</h3>
+                    <h6>Marketing & COO</h6>
+                  </div>
                 </div>
               </div>
-              <div class="col mt-5 team3">
-                <img class="img-fluid" src="/img/team/Team3.png" alt="" />
-                <div class="team_btn3">
-                  <h3>Rita Dalwani</h3>
-                  <h6>Manager & CMO</h6>
+
+              <div
+                data-aos="zoom-in-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                class="team3"
+              >
+                <div>
+                  <img
+                    class="img-fluid"
+                    src="/img/team/Team3.png"
+                    alt="image"
+                  />
+                  <div class="team_btn3">
+                    <h3>Rita Dalwani</h3>
+                    <h6>Manager & CMO</h6>
+                  </div>
                 </div>
               </div>
             </div>
@@ -440,7 +490,12 @@
         <!-- Start Join Us Now -->
 
         <section class="container Join_top">
-          <div class="Join_bg">
+          <div
+            data-aos="zoom-in-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="Join_bg"
+          >
             <h1>Join Us Now</h1>
             <p>Go to the Avocado Community Site</p>
           </div>
@@ -450,7 +505,12 @@
         <!--Start Partners -->
 
         <section class="container">
-          <div class="text-center text-white">
+          <div
+            data-aos="zoom-in-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="text-center text-white"
+          >
             <h1>Our Awesome Partners</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
@@ -458,32 +518,72 @@
             </p>
           </div>
           <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 py-5">
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_1.png" class="img-fluid" alt="image" />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_2.png" class="img-fluid" alt="image" />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img
                 src="/images/Image_3_Hover.png"
                 class="img-fluid"
                 alt="image"
               />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_4.png" class="img-fluid" alt="image" />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_5.png" class="img-fluid" alt="image" />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_6.png" class="img-fluid" alt="image" />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_7.png" class="img-fluid" alt="image" />
             </div>
-            <div class="col card_partner">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col card_partner d-flex justify-content-center"
+            >
               <img src="/images/Image_8.png" class="img-fluid" alt="image" />
             </div>
           </div>
@@ -493,11 +593,21 @@
         <!--Start Subscribe -->
         <section class="container">
           <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 input_bg">
-            <div class="col text-start">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col text-start"
+            >
               <h1>Subscribe for Newsletter</h1>
               <h1>to get all Updates</h1>
             </div>
-            <div class="col d-flex align-items-center">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col d-flex align-items-center"
+            >
               <div class="input-group mb-3">
                 <input
                   type="text"
@@ -507,7 +617,11 @@
                   aria-describedby="basic-addon2"
                 />
                 <span class="input-group-text" id="basic-addon2 ">
-                  <img class="img-fluid" src="/images/Icon_ck.png" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="/images/Icon_ck.png"
+                    alt="image"
+                  />
                   Subscribe
                 </span>
               </div>
@@ -517,8 +631,13 @@
         <!--End Subscribe -->
 
         <section class="container">
-          <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 text-white">
-            <div class="col mt-5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-white">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col mt-5"
+            >
               <div class="sub_logo mb-4">
                 <img class="img-fluid" src="/images/IMG_2346.png" alt="logo" />
                 <a class="text-white" href="#">Payadcoin</a>
@@ -529,7 +648,12 @@
                 used in laying out print, graphic or web designs.
               </p>
             </div>
-            <div class="col mt-5">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col mt-5"
+            >
               <h4 class="mb-4">Menu</h4>
               <div>
                 <p>Newsletter</p>
@@ -540,7 +664,12 @@
               </div>
             </div>
 
-            <div class="col mt-5">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col mt-5"
+            >
               <h4 class="mb-4">Products</h4>
 
               <div>
@@ -551,19 +680,24 @@
               </div>
             </div>
 
-            <div class="col mt-5">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="col mt-5"
+            >
               <h4 class="mb-4">Contact us</h4>
 
               <div>
                 <p>
-                  <img class="me-2" src="/images/Location_bk.png" alt="" />
+                  <img class="me-2" src="/images/Location_bk.png" alt="image" />
                   Azzuro company, 882 Pheasant
                 </p>
                 <p class="contact_text">St. Latrobe, PA 15650</p>
 
                 <p>
-                  <img class="me-2" src="/images/Call_bg.png" alt="" /> +88 169
-                  787 5256
+                  <img class="me-2" src="/images/Call_bg.png" alt="image" /> +88
+                  169 787 5256
                 </p>
                 <p class="contact_text">+88 785 887 4434</p>
 
@@ -571,7 +705,7 @@
                   <img
                     class="me-3"
                     src="/images/Message_bd.png"
-                    alt=""
+                    alt="image"
                   />support@azzuro.com
                 </p>
               </div>
@@ -579,12 +713,24 @@
           </div>
         </section>
         <div class="d-flex justify-content-center align-items-center">
-          <div>
-            <img class="img-fluid mx-3" src="/img/social-icon/Fb1.png" alt="image" />
-            <img class="img-fluid mx-3" src="/img/social-icon/Twitter4.png" alt="image" />
-            <img class="img-fluid mx-3" src="/img/social-icon/Linked3.png" alt="image" />
+          <div class="social">
             <img
-              class="img-fluid mx-3"
+              class="img-fluid mx-2 mt-4"
+              src="/img/social-icon/Fb1.png"
+              alt="image"
+            />
+            <img
+              class="img-fluid mx-2 mt-4"
+              src="/img/social-icon/Twitter4.png"
+              alt="image"
+            />
+            <img
+              class="img-fluid mx-2 mt-4"
+              src="/img/social-icon/Linked3.png"
+              alt="image"
+            />
+            <img
+              class="img-fluid mx-2 mt-4"
               src="/img/social-icon/Instagram2.png"
               alt="image"
             />
@@ -594,26 +740,41 @@
       <!--end home_body -->
     </main>
 
-    <footer>
+    <!-- start footer -->
+    <footer id="footer">
       <div class="container">
-        <div class="">
-          <span>Copyright ©2022 Payadcoin . All rights reserved</span>
-          <a href="#">NEWSLETTER</a>
+        <div class="footer_main">
+          <span class="footet1">
+            <span>Copyright ©2022 Payadcoin. All rights reserved</span>
+          </span>
+          <a class="footet2" href="#">NEWSLETTER</a>
           <a
+            class="footet3"
             href="https://drive.google.com/file/d/11Ag5AdYC-dBEaN4Eyt9hXx5PGBJBSyaC/view"
             target="_blank"
             >White Paper
           </a>
-          <a>Staking</a>
-          <a>Social</a>
-          <a>Buy Coin</a>
+          <a class="footet4">Staking</a>
+          <a class="footet5">Social</a>
+          <a class="footet6">Buy Coin</a>
         </div>
       </div>
     </footer>
+    <!-- end footer -->
+
+    <!-- aos animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

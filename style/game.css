@@ -5,17 +5,12 @@
 }
 #game_label-logo1,
 #game_label-logo2 {
-  overflow-x: hidden;
+  width: 100px;
 }
 #game_label-logo1 {
-  display: flex;
-  justify-content: end;
-  /* margin-right: -10px; */
-  margin-bottom: -100px;
+  float: right;
+  
 }
 #game_label-logo2 {
-  display: flex;
-  justify-content: start;
-  margin-top: -100px;
-  /* margin-left: -10px; */
+  
 }

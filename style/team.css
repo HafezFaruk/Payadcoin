@@ -1,0 +1,104 @@
+.team_main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+
+}
+
+
+.team1, .team2, .team3 {
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.team_btn1,
+.team_btn2,
+.team_btn3 {
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  border-radius: 80px;
+  white-space: nowrap;
+}
+.team_btn1 {
+  padding: 30px 80px;
+  margin-left: -25px;
+  margin-top: -120px;
+}
+.team_btn2 {
+  padding: 30px 75px;
+  margin-top: -105px;
+}
+.team_btn3 {
+  padding: 30px 100px;
+  margin-left: -25px;
+  margin-top: -116px;
+}
+
+
+@media screen and (max-width: 1200px){
+.team_btn1 {
+  padding: 30px 55px;
+  margin-left: -20px;
+  margin-top: -120px;
+}
+.team_btn2 {
+  padding: 30px 50px;
+  margin-top: -85px;
+}
+.team_btn3 {
+  padding: 30px 82px;
+  margin-left: -18px;
+  margin-top: -130px;
+}
+}
+@media screen and (max-width: 992px){
+.team1 {
+  grid-column: span 6;
+}
+.team2 {
+    grid-column: span 6;
+
+}
+.team3 {
+    grid-column: span 12;
+
+}
+
+}
+@media screen and (max-width: 768px){
+.team1 {
+  grid-column: span 12;
+}
+.team2 {
+    grid-column: span 12;
+
+}
+.team3 {
+    grid-column: span 12;
+
+}
+.team_btn1 {
+  padding: 25px 75px;
+  margin-left: -8px;
+  margin-top: -110px;
+}
+.team_btn2 {
+  padding: 25px 110px;
+  margin-top: -120px;
+  margin-left: -6px;
+
+}
+.team_btn3 {
+  padding: 25px 90px;
+  margin-left: -10px;
+  margin-top: -116px;
+}
+}

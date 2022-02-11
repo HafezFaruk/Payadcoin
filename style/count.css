@@ -56,22 +56,64 @@ background-color: rgba(3, 0, 89, 0.863);
   border-radius: 10px;
 }
 
-/* .dashboard {
-  background-image: url(../images/Background_da.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-color: red;
-  padding: 180px 0;
-} */
-@media only screen and (max-width: 576px) {
+.main_card{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+}
+.card-1 {
+  grid-column: span 4;
+}
+.card-2 {
+    grid-column: span 4;
+
+}
+.card-3 {
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 992px){
+.card-1 {
+  grid-column: span 6;
+}
+.card-2 {
+    grid-column: span 6;
+
+}
+.card-3 {
+    grid-column: span 12;
+
+}
+
+}
+@media screen and (max-width: 768px){
+.card-1 {
+  grid-column: span 12;
+}
+.card-2 {
+    grid-column: span 12;
+
+}
+.card-3 {
+    grid-column: span 12;
+
+}
+
+}
+/* @media only screen and (max-width: 576px) {
   .count-btn {
     text-align: center;
   }
   .count_btn1 {
     margin-right: 0px;
   }
-}
+} */
 
 
 
