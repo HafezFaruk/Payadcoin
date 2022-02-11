@@ -18,6 +18,7 @@ background-color: rgba(3, 0, 89, 0.863);
   border: 2px solid #fff;
   padding: 0px 0px 10px 0px;
   border-radius: 10px;
+  width: 95%;
 }
 .count_image-border iframe {
   margin-left: 15px;
@@ -48,12 +49,13 @@ background-color: rgba(3, 0, 89, 0.863);
   background-color: #0f0043;
   border: 1px solid #0090ff;
   border-radius: 5px;
-  padding: 16px;
+  padding: 16px 25px;
 }
 .count_card-image {
   background-color: #006dfe;
-  padding: 14px;
+  padding: 20px;
   border-radius: 10px;
+  margin-right: 10px;
 }
 
 .main_card{
@@ -105,15 +107,9 @@ background-color: rgba(3, 0, 89, 0.863);
 
 }
 
+
 }
-/* @media only screen and (max-width: 576px) {
-  .count-btn {
-    text-align: center;
-  }
-  .count_btn1 {
-    margin-right: 0px;
-  }
-} */
+
 
 
 

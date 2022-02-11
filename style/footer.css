@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /* padding: 50px 50px; */
 }
 .sub_logo img {
   height: 25px;
@@ -25,6 +24,8 @@ footer {
   padding: 20px 0;
   background-color: #0d008b;
   color: #fff;
+  white-space: nowrap;
+
 }
 footer a {
   text-decoration: none;
@@ -38,46 +39,34 @@ footer > div {
   align-items: center;
 }
 
-.footet_main{
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  justify-content: center;
-  align-items: center;
-  grid-gap: 10px;
 
-}
-
-@media screen and (max-width: 768px){
-.footet1{
-    grid-column: span 12;
-    white-space: nowrap;
+.footer1, .footer2, .footer3{
+    display: inline-block;
+    font-weight: 500;
     
-
 }
-.footet2{
-      grid-column: span 4;
-    white-space: nowrap;
-
+@media screen and (max-width: 991px){
+.footer1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
 }
-.footet3{
-    grid-column: span 4;
-    white-space: nowrap;
-
+  .footer2, .footer3{
+  display: inline-block;
 }
-.footet4{
-    grid-column: span 4;
-    white-space: nowrap;
-
 }
-.footet5{
-    grid-column: span 6;
-    white-space: nowrap;
-
+@media screen and (max-width: 767px){
+.footer2{
+  margin: 10px 0;
 }
-.footet6{
-    grid-column: span 6;
-    white-space: nowrap;
-
+  .footer1, .footer2, .footer3{
+    display: block;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    
 }
-
+.footer a {
+  margin: 0 5px;
+}
 }

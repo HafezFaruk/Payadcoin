@@ -15,6 +15,9 @@
   margin-left: 70px;
   white-space: nowrap;
 }
+.money_btn:hover {
+  color: #fff;
+}
 
 
 
@@ -30,7 +33,7 @@
 }
 
 .card_partner {
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.199);
 }
 .card_partner:hover {
   cursor: pointer;

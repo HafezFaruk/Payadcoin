@@ -5,13 +5,17 @@
   background-size: cover;
   padding: 180px 0;
 }
+.banner_text{
+  font-weight: bolder;
+  font-size: 3rem;
+}
 .banner_btn1,
 .banner_btn2 {
   border: 1px solid #fff;
   color: #fff;
   border-radius: 5px;
   font-weight: 500;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .banner_btn1 {
   background-color: #4b00fe;

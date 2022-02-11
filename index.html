@@ -17,8 +17,16 @@
       crossorigin="anonymous"
     />
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
     <!-- custom css link -->
     <link rel="stylesheet" href="/style/navbar.css" />
     <link rel="stylesheet" href="/style/style.css" />
@@ -27,6 +35,12 @@
     <link rel="stylesheet" href="/style/game.css" />
     <link rel="stylesheet" href="/style/team.css" />
     <link rel="stylesheet" href="/style/footer.css" />
+
+    <style>
+      body {
+        overflow-x: visible;
+      }
+    </style>
   </head>
   <body>
     <!-- Start Navbar -->
@@ -37,12 +51,13 @@
           <i class="fas fa-bars" id="btn"></i>
           <i class="fas fa-times" id="cancel"></i>
         </label>
-        <span class="nav_logo">
-          <img src="/img/navbar_logo/nav-logo.png" alt="navbar_logo" />
-          <a class="navbar-brand text-white text-uppercase" href="#"
-            >Payadcoin</a
-          >
-        </span>
+
+        <a class="navbar-brand text-white text-uppercase" href="#"
+          ><img
+            class="nav_log"
+            src="/img/navbar_logo/Logo.png"
+            alt="navbar_logo"
+        /></a>
         <ul>
           <li><a href="#">NEWSLETTER</a></li>
           <li>
@@ -53,7 +68,7 @@
           </li>
           <li><a href="#">Staking</a></li>
           <li><a href="#">Social</a></li>
-          <li><a href="#">Buy Coin</a></li>
+          <li><a href="#coin">Buy Coin</a></li>
           <li>
             <a class="btn nav_right-button text-white" type="submit">
               Connect Wallet
@@ -70,13 +85,15 @@
       <section class="banner_bg text-white text-center">
         <div>
           <div
-            data-aos="zoom-in"
+            data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <h2 class="text-uppercase">GET THE ULTIMATE PROFIT</h2>
-            <h2 class="text-uppercase">FROM BITCOIN</h2>
-            <p>Unlock life-changing opportunities with Payadcoun</p>
+            <h1 class="text-uppercase banner_text">GET THE ULTIMATE PROFIT</h1>
+            <h1 class="text-uppercase banner_text">FROM BITCOIN</h1>
+            <p class="font-weight-bold">
+              Unlock life-changing opportunities with Payadcoun
+            </p>
           </div>
           <a
             href="https://drive.google.com/file/d/11Ag5AdYC-dBEaN4Eyt9hXx5PGBJBSyaC/view"
@@ -101,7 +118,14 @@
             Buy Payadcoin
           </button>
         </div>
-        <a href="#footer" class="mt-5">
+        <a
+          href="#footer"
+          class="mt-5"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <img src="/img/Property.png" alt="Property" />
         </a>
       </section>
@@ -182,8 +206,8 @@
                       />
                     </div>
                     <span class="ms-4">
-                      <h3>50k+</h3>
-                      <p>Discord Members</p>
+                      <h2>50k+</h2>
+                      <h6>Discord Members</h6>
                     </span>
                   </div>
                 </div>
@@ -205,8 +229,8 @@
                       />
                     </div>
                     <span class="ms-4">
-                      <h3>50k+</h3>
-                      <p>Discord Members</p>
+                      <h2>50k+</h2>
+                      <h6>Discord Members</h6>
                     </span>
                   </div>
                 </div>
@@ -228,8 +252,8 @@
                       />
                     </div>
                     <span class="ms-4">
-                      <h3>50k+</h3>
-                      <p>Discord Members</p>
+                      <h2>50k+</h2>
+                      <h6>Discord Members</h6>
                     </span>
                   </div>
                 </div>
@@ -389,7 +413,7 @@
               data-aos-duration="2000"
               class="col"
             >
-              <h4>All you need is $ Flow</h4>
+              <h2>All you need is $ Flow</h2>
               <h6>Contact:</h6>
               <p>2dfhg6621h6d6dh6df21h6d652162fgdhg</p>
             </div>
@@ -405,7 +429,7 @@
               </div>
               <a
                 class="money_btn btn mt-3"
-                href="https://youtu.be/GhkdlC4jpek"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Click here to purchase</a
@@ -504,7 +528,7 @@
 
         <!--Start Partners -->
 
-        <section class="container">
+        <section id="coin" class="container">
           <div
             data-aos="zoom-in-down"
             data-aos-easing="ease-out-cubic"
@@ -638,9 +662,11 @@
               data-aos-duration="2000"
               class="col mt-5"
             >
-              <div class="sub_logo mb-4">
-                <img class="img-fluid" src="/images/IMG_2346.png" alt="logo" />
-                <a class="text-white" href="#">Payadcoin</a>
+              <div class="mb-4">
+                <a href="#">
+                <img class="img-fluid w-75" src="/img/navbar_logo/Logo.png" alt="logo" />
+
+                </a>
               </div>
 
               <p>
@@ -654,7 +680,7 @@
               data-aos-duration="2000"
               class="col mt-5"
             >
-              <h4 class="mb-4">Menu</h4>
+              <h3 class="mb-4">Menu</h3>
               <div>
                 <p>Newsletter</p>
                 <p>Whitepaper</p>
@@ -670,7 +696,7 @@
               data-aos-duration="2000"
               class="col mt-5"
             >
-              <h4 class="mb-4">Products</h4>
+              <h3 class="mb-4">Products</h3>
 
               <div>
                 <p>Desktop Wallet</p>
@@ -686,7 +712,7 @@
               data-aos-duration="2000"
               class="col mt-5"
             >
-              <h4 class="mb-4">Contact us</h4>
+              <h3 class="mb-4">Contact us</h3>
 
               <div>
                 <p>
@@ -712,6 +738,7 @@
             </div>
           </div>
         </section>
+
         <div class="d-flex justify-content-center align-items-center">
           <div class="social">
             <img
@@ -743,21 +770,35 @@
     <!-- start footer -->
     <footer id="footer">
       <div class="container">
-        <div class="footer_main">
-          <span class="footet1">
+          <!------------
+                One 
+          -------------->
+          <div class="footer1">
             <span>Copyright ©2022 Payadcoin. All rights reserved</span>
-          </span>
-          <a class="footet2" href="#">NEWSLETTER</a>
-          <a
-            class="footet3"
-            href="https://drive.google.com/file/d/11Ag5AdYC-dBEaN4Eyt9hXx5PGBJBSyaC/view"
-            target="_blank"
-            >White Paper
-          </a>
-          <a class="footet4">Staking</a>
-          <a class="footet5">Social</a>
-          <a class="footet6">Buy Coin</a>
-        </div>
+          </div>
+          <!-------------
+               Two 
+          -------------->
+          <div class="footer2">
+            <span>
+              <a href="#">NEWSLETTER</a>
+              <a
+                href="https://drive.google.com/file/d/11Ag5AdYC-dBEaN4Eyt9hXx5PGBJBSyaC/view"
+                target="_blank"
+                >White Paper
+              </a>
+              <a>Staking</a>
+            </span>
+          </div>
+          <!--------------- 
+              Three 
+          ---------------->
+          <div class="footer3">
+            <span>
+              <a>Social</a>
+              <a>Buy Coin</a>
+            </span>
+          </div>
       </div>
     </footer>
     <!-- end footer -->
