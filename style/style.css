@@ -1,5 +1,5 @@
 .money {
-  background-image: url(../images/Base_d.png);
+  background-image: url(../images/Base2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -15,11 +15,10 @@
   margin-left: 70px;
   white-space: nowrap;
 }
+
 .money_btn:hover {
   color: #fff;
 }
-
-
 
 .Join_bg {
   background-image: url(../images/blur_image.png);
@@ -40,7 +39,7 @@
 }
 
 .input_bg {
-  background-image: url(../images/Base_b.png);
+  background-image: url(../images/Base1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -53,4 +52,33 @@
   color: #fff;
   font-weight: 500;
   border: none;
+}
+
+
+@media screen and (max-width: 600px){
+.input_bg h1 {
+  font-size:25px;
+}
+
+}
+@media screen and (max-width: 458px){
+.input_bg h1 {
+  font-size:16px;
+}
+.input_bg input{
+  width: 100%;
+}
+
+}
+@media screen and (max-width: 320px){
+
+.mony_text h2{
+  font-size: 20px;
+}
+.mony_text p{
+  font-size: 12px;
+}
+.money_btn {
+  margin-left: 0px;
+}
 }

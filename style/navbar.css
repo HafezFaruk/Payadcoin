@@ -7,23 +7,23 @@
   list-style: none;
   text-decoration: none;
 }
+body{
+font-family: "Rowdies", cursive;
+font-family: 'Open Sans', sans-serif;
+}
 
-/* body::-webkit-scrollbar {
-  display: none;
-  overflow-x: hidden;
-  font-family: "Rowdies", cursive;
-  font-family: 'Open Sans', sans-serif;
-} */
 header {
   background-color: #0d008b;
   padding: 10px 0;
   position: static;
 }
 
-
+.nav_log{
+  width: 180px;
+}
 nav ul {
   float: right;
-  margin-top: 14px;
+  margin: 4px;
 }
 nav ul li {
   display: inline-block;
@@ -33,7 +33,6 @@ nav ul li a {
   position: relative;
   color: white;
   font-size: 16px;
-  padding: 0px 0;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
@@ -67,7 +66,7 @@ label #cancel {
   line-height: 80px;
   margin-right: 20px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 8px;
   display: none;
 }
 #toggle_button{
@@ -92,11 +91,13 @@ label #cancel {
     width: 100%;
     height: 100vh;
     background: #34495e;
-    top: 72px;
+    top: 62px;
     left: -100%;
     transition: all 0.5s;
     text-align: center;
     z-index: 1;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   #check:checked ~ ul {
     left: 0;
