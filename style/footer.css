@@ -1,5 +1,5 @@
 .sub_footer-bg {
-  background-image: url(../images/sub-footer.png);
+  background-image: url(../images/footer_bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -22,8 +22,6 @@
 }
 footer {
   padding: 20px 0;
-  background-color: #0d008b;
-  color: #fff;
   white-space: nowrap;
 font-family: 'Open Sans', sans-serif;
 
@@ -32,6 +30,9 @@ footer a {
   text-decoration: none;
   text-transform: uppercase;
   margin: 0 15px;
+  color: #fff;
+}
+footer a:hover {
   color: #fff;
 }
 footer > div {

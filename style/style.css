@@ -1,3 +1,14 @@
+
+.common_color{
+  color: #BB6B24;
+  font-size: 0.7rem;
+}
+.common_bg1{
+  background-color: #3E1404;
+}
+.common_bg2{
+  background-color: #BB6B24;
+}
 .money {
   background-image: url(../images/Base2.png);
   background-repeat: no-repeat;
@@ -7,7 +18,6 @@
 }
 .money_btn {
   border: none;
-  background-color: blue;
   color: #fff;
   border-radius: 3px;
   padding: 10px 10px;
@@ -20,6 +30,46 @@
   color: #fff;
 }
 
+
+
+.after_before-parent{
+  position: relative;
+}
+
+.after_before1:before{
+  content: "";
+  width: 105px;
+  height: 2px;
+  border-radius: 5px;
+  background: #ffffff;
+  position: absolute;
+  top: 14%;
+
+}
+.after_before2:before{
+  content: "";
+  width: 105px;
+  height: 2px;
+  border-radius: 5px;
+  background: #ffffff;
+  position: absolute;
+  top: 7%;
+
+}
+
+.map_title{
+  background-image: url(../images/road_map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 70px;
+  /* position: relative; */
+}
+.map_title h4{
+  /* top: 20px; */
+  /* left: 65px; */
+  /* position: absolute; */
+}
 .Join_bg {
   background-image: url(../images/blur_image.png);
   background-repeat: no-repeat;
@@ -55,6 +105,24 @@
 }
 
 
+@media screen and (max-width: 991px){
+  /* .map_title h4{
+ top: 22%;
+ left: 28%;
+ font-size: 2rem;
+} */
+}
+
+@media screen and (max-width: 767){
+  /* .map_title{
+    position: relative;
+}
+  .map_title h4{
+    position: absolute;
+ top: 22%;
+ left: 500px;
+} */
+}
 @media screen and (max-width: 600px){
 .input_bg h1 {
   font-size:25px;

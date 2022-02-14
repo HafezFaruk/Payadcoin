@@ -1,18 +1,14 @@
-/* .count_bg {
-  background-image: url(../images/bg_dot1.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-background-color: #030059;
-background-color: rgba(3, 0, 89, 0.863);
-  } */
 .home_body {
-  background-image: url(../images/body-home.png);
+  background-image: url(../images/Background.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
-  padding: 180px 0;
+  margin-top: -200px;
+  padding-bottom: 50px;
+}
+.counter{
+  padding-top: 200px;
 }
 .iframe_control{
   padding: 0;
@@ -33,7 +29,6 @@ background-color: rgba(3, 0, 89, 0.863);
 
 .count_btn1,
 .count_btn2 {
-  background: linear-gradient(100deg, rgb(48, 203, 150), rgb(0, 109, 254));
   border: none;
   padding: 10px 10px;
   border-radius: 10px;
@@ -50,14 +45,12 @@ background-color: rgba(3, 0, 89, 0.863);
 }
 
 .count_card1, .count_card2, .count_card3 {
-  background-color: #0f0043;
-  border: 1px solid #0090ff;
+  border: 1px solid #BB6B24;
   border-radius: 5px;
   padding: 16px 25px;
   margin-top: 30px;
 }
 .count_card-image {
-  background-color: #006dfe;
   padding: 20px;
   border-radius: 10px;
   margin-right: 10px;
