@@ -63,30 +63,36 @@
   background-position: center center;
   background-size: contain;
   height: 70px;
-  /* position: relative; */
 }
 .map_title h4{
-  /* top: 20px; */
-  /* left: 65px; */
-  /* position: absolute; */
+  padding-top: 20px;
 }
 .Join_bg {
   background-image: url(../images/blur_image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  border: 1px solid blue;
+  border-radius: 10px;
   padding: 50px 50px;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 
 .card_partner {
   border: 1px solid rgba(128, 128, 128, 0.199);
 }
-.card_partner:hover {
+
+.card_partner img {
+  filter: grayscale(100%);
+}
+.card_partner img:hover {
+  filter: grayscale(0%);
   cursor: pointer;
 }
+
 
 .input_bg {
   background-image: url(../images/Base1.png);
@@ -98,31 +104,12 @@
   color: #fff;
 }
 .input_bg span {
-  background-color: #0012af;
   color: #fff;
   font-weight: 500;
   border: none;
 }
 
 
-@media screen and (max-width: 991px){
-  /* .map_title h4{
- top: 22%;
- left: 28%;
- font-size: 2rem;
-} */
-}
-
-@media screen and (max-width: 767){
-  /* .map_title{
-    position: relative;
-}
-  .map_title h4{
-    position: absolute;
- top: 22%;
- left: 500px;
-} */
-}
 @media screen and (max-width: 600px){
 .input_bg h1 {
   font-size:25px;

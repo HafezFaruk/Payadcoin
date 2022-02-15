@@ -23,8 +23,7 @@
 footer {
   padding: 20px 0;
   white-space: nowrap;
-font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
 footer a {
   text-decoration: none;
@@ -39,40 +38,42 @@ footer > div {
   text-align: center;
 }
 
-
-.footer1, .footer2, .footer3{
-    display: inline-block;
-    font-weight: 500;
-    
-}
-@media screen and (max-width: 991px){
-.footer1{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 16px;
-}
-  .footer2, .footer3{
+.footer1,
+.footer2,
+.footer3 {
   display: inline-block;
+  font-weight: 500;
 }
+@media screen and (max-width: 991px) {
+  .footer1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .footer2,
+  .footer3 {
+    display: inline-block;
+  }
 }
-@media screen and (max-width: 767px){
-.footer2{
-  margin: 10px 0;
-}
-  .footer1, .footer2, .footer3{
+@media screen and (max-width: 768px) {
+  .footer2 {
+    margin: 10px 0;
+  }
+  .footer1,
+  .footer2,
+  .footer3 {
     display: block;
     font-size: 14px;
     display: flex;
     justify-content: center;
-    
+  }
+  .footer a {
+    margin: 0 5px;
+  }
 }
-.footer a {
-  margin: 0 5px;
-}
-}
-@media screen and (max-width: 320px){
-footer a {
+@media screen and (max-width: 320px) {
+  footer a {
     margin: 0 5px;
     font-size: 12px;
-}
+  }
 }

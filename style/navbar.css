@@ -24,6 +24,7 @@ header {
 nav ul {
   float: right;
   margin: 4px;
+  padding: 0;
 }
 nav ul li {
   display: inline-block;
@@ -79,7 +80,18 @@ label #cancel {
 .nav_right-button{
     font-weight: 500;
 }
+@media screen and (max-width: 1024px){
+  nav ul {
+  float: right;
+  margin: 0px;
+  padding: 0;
+}
+nav ul li a {
+  font-size: 12px;
+  margin: 0px;
+}
 
+}
 
 @media screen and (max-width: 991px) {
   label #btn {

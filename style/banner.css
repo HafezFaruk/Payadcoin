@@ -6,7 +6,7 @@
   padding: 180px 0;
   margin: 0 !important;
 }
-.banner_text{
+.banner_text {
   font-weight: bolder;
   font-size: 3rem;
 }
@@ -18,23 +18,21 @@
   font-weight: 500;
   margin-top: 3px;
 }
-.banner_btn1, .banner_btn2{
+.banner_btn1,
+.banner_btn2 {
   padding: 10px 20px;
   margin: 10px;
 }
 .banner_btn1 {
-    padding: 10px 20px;
-
+  padding: 10px 20px;
 }
 .banner_btn2 {
-    padding: 10px 32px;
-  
+  padding: 10px 32px;
 }
-.down_icon{
+.down_icon {
   margin-top: 30px;
 }
-@media screen and (max-width: 767px){
- .banner_btn2{
-   
- }
+@media screen and (max-width: 768px) {
+  .banner_btn2 {
+  }
 }
